@@ -1,0 +1,25 @@
+---
+title: "Rexercise#2_dequito"
+author: "Yanna Dawn Dequito"
+date: "2026-09-30"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Part A - Arithmetic Operator
+
+```{r}
+a <- 17
+b <- 5
+
+a + b
+a - b
+a * b
+a / b
+
+a %% b
+a %/% b
+
