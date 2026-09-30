@@ -1,0 +1,80 @@
+---
+title: "Rexercise#2_dequito"
+author: "Yanna Dawn Dequito"
+date: "2026-09-30"
+output: html_document
+---
+
+## Part A - Arithmetic Operations
+
+```{r}
+a <- 17
+b <- 5
+
+a + b
+a - b
+a * b
+a/b
+
+a %% b
+a %/% b
+
+2^10
+```
+## Part B - Basic Data Types
+```{r}
+x <- 42
+y <- 42L
+z <- "42"
+w <- TRUE
+v <- 3 + 2i
+
+typeof(x)
+typeof(y)
+typeof(z)
+typeof(w)
+typeof(v)
+
+class(x)
+class(y)
+class(z)
+class(w)
+class(v)
+
+mode(x)
+mode(y)
+mode(z)
+mode(w)
+mode(v)
+```
+##Part C - Type Conversion
+```{r}
+num_string <- "123"
+num_val <- as.numeric(num_string)
+typeof(num_val)
+class(num_val)
+mode(num_val)
+
+as.logical(0)
+as.logical(1)
+
+bad_string <- "hello123"
+as.numeric (bad_string)
+```
+## Part D - Strings, paste(), and paste0()
+
+```{r}
+first_name <- "Yanna Dawn"
+last_name <- "Dequito"
+print(first_name)
+print(last_name)
+cat(first_name, last_name)
+
+full_name <- paste(first_name, last_name)
+full_name
+paste0(first_name, last_name)
+
+paste(first_name, last_name, sep = "-")
+age <- 21
+paste0(full_name, "is", age, "years old.")
+```
